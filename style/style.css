@@ -43,6 +43,7 @@ text-align: left;
 body{
     margin: 0 160px;
     /* max-width: 1280px; */
+    background-color: rgb(245, 245, 245);
 }
 /* navbar */
 header nav ul{
@@ -244,4 +245,52 @@ text-align: left;
 }
 .yunus .bg-img{
     position: absolute;
+}
+/* recent news */
+.recent{
+    margin-top: 130px;
+}
+.recent .column{
+    margin: 24px 0px;
+    display: flex;
+    gap: 32px;
+    padding: 56px 48px;
+    box-sizing: border-box;
+    /* border: 1px solid rgba(14, 14, 14, 0.15); */
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.recent .column2{
+    margin: 24px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    padding: 56px 48px;
+    box-sizing: border-box;
+    /* border: 1px solid rgba(14, 14, 14, 0.15); */
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.recent img{
+    border-radius: 24px;
+}
+.recent .content-btn{
+   color: rgb(255, 255, 255);
+   font-family: Fira Sans;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 22px;
+   letter-spacing: 0%;
+   text-align: left;
+   border-radius: 8px;
+padding: 13px 26px;
+background: rgb(0, 106, 80);
+border: none;
+margin-top: 32px;
+}
+.content-box img{
+    margin:12px 0 0 0;
+}
+.content-box p{
+    margin: 12px 0 0 0;
 }
